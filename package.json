@@ -51,7 +51,7 @@
     "start-api": "node -r esm src/api/server/index.js",
     "start-store": "node -r esm dist/store/server/index.js",
     "start": "concurrently npm:start-*",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run setup && npm run build"
   },
   "lint-staged": {
     "*.js": [
