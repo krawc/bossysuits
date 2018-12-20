@@ -7,6 +7,7 @@ import OrderTotals from './totals';
 import OrderSummary from './summary';
 import OrderItems from './items';
 import OrderCustomer from './customer';
+import OrderPackaging from './packaging';
 
 import Paper from 'material-ui/Paper';
 
@@ -47,6 +48,11 @@ export default class OrderDetails extends React.Component {
 						processingCheckout={processingCheckout}
 					/>
 					<OrderCustomer
+						order={order}
+						settings={settings}
+						onShippingAddressUpdate={onShippingAddressUpdate}
+					/>
+					<OrderPackaging
 						order={order}
 						settings={settings}
 						onShippingAddressUpdate={onShippingAddressUpdate}

@@ -124,6 +124,8 @@
     "redux-form-material-ui": "^4.3.4",
     "redux-thunk": "^2.3.0",
     "response-time": "^2.3.2",
+    "rune.js": "^1.1.6",
+    "rune.noise.js": "0.0.4",
     "sass-loader": "^7.1.0",
     "sitemap": "^1.13.0",
     "slug": "^0.9.1",
