@@ -12,13 +12,13 @@ const dbUrl =
 
 module.exports = {
 	// used by Store (server side)
-	apiBaseUrl: `https://bossysuits.herokuapp.com/api/v1`,
+	apiBaseUrl: `http://localhost:3001/api/v1`,
 
 	// used by Store (server and client side)
-	ajaxBaseUrl: `https://bossysuits.herokuapp.com/ajax`,
+	ajaxBaseUrl: `http://localhost:3001/ajax`,
 
 	// Access-Control-Allow-Origin
-	storeBaseUrl: `https://bossysuits.herokuapp.com`,
+	storeBaseUrl: `http://localhost:3000`,
 
 	// used by API
 	adminLoginUrl: '/admin/login',
