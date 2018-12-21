@@ -1,9 +1,9 @@
 // config used by server side only
-const dbHost = process.env.DB_HOST || '127.0.0.1';
-const dbPort = process.env.DB_PORT || 27017;
-const dbName = process.env.DB_NAME || 'shop';
-const dbUser = process.env.DB_USER || '';
-const dbPass = process.env.DB_PASS || '';
+const dbHost = process.env.DB_HOST || 'ds139934.mlab.com';
+const dbPort = process.env.DB_PORT || 39934;
+const dbName = process.env.DB_NAME || 'bossysuits';
+const dbUser = process.env.DB_USER || 'krawc';
+const dbPass = process.env.DB_PASS || 'JEByfAUqhc7fnbs';
 const dbCred =
 	dbUser.length > 0 || dbPass.length > 0 ? `${dbUser}:${dbPass}@` : '';
 
@@ -12,10 +12,10 @@ const dbUrl =
 
 module.exports = {
 	// used by Store (server side)
-	apiBaseUrl: `http://localhost:3001/api/v1`,
+	apiBaseUrl: `https://bossysuits.herokuapp.com:3001/api/v1`,
 
 	// used by Store (server and client side)
-	ajaxBaseUrl: `http://localhost:3001/ajax`,
+	ajaxBaseUrl: `https://bossysuits.herokuapp.com:3001/ajax`,
 
 	// Access-Control-Allow-Origin
 	storeBaseUrl: '*',
