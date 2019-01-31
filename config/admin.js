@@ -2,7 +2,7 @@
 module.exports = {
 	// dashboard UI language
 	language: 'en',
-	apiBaseUrl: 'https://bossysuits.herokuapp.com/api/v1',
-	apiWebSocketUrl: 'ws://bossysuits.herokuapp.com',
+	apiBaseUrl: 'https://bossysuits-api.herokuapp.com/api/v1',
+	apiWebSocketUrl: 'ws://bossysuits-api.herokuapp.com',
 	developerMode: true
 };

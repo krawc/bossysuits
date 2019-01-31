@@ -2,5 +2,5 @@
 module.exports = {
 	// store UI language
 	language: 'en',
-	ajaxBaseUrl: 'https://bossysuits.herokuapp.com/ajax'
+	ajaxBaseUrl: 'https://bossysuits-api.herokuapp.com/ajax'
 };

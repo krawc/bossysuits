@@ -12,10 +12,10 @@ const dbUrl =
 
 module.exports = {
 	// used by Store (server side)
-	apiBaseUrl: `https://bossysuits.herokuapp.com/api/v1`,
+	apiBaseUrl: `https://bossysuits-api.herokuapp.com/api/v1`,
 
 	// used by Store (server and client side)
-	ajaxBaseUrl: `https://bossysuits.herokuapp.com/ajax`,
+	ajaxBaseUrl: `https://bossysuits-api.herokuapp.com/ajax`,
 
 	// Access-Control-Allow-Origin
 	storeBaseUrl: '*',

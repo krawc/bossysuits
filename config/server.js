@@ -11,19 +11,19 @@ const dbUrl =
 
 module.exports = {
 	// used by Store (server side)
-	apiBaseUrl: `https://bossysuits.herokuapp.com/api/v1`,
+	apiBaseUrl: `https://bossysuits-api.herokuapp.com/api/v1`,
 
 	// used by Store (server and client side)
-	ajaxBaseUrl: `https://bossysuits.herokuapp.com/ajax`,
+	ajaxBaseUrl: `https://bossysuits-api.herokuapp.com/ajax`,
 
 	// Access-Control-Allow-Origin
-	storeBaseUrl: `https://bossysuits.herokuapp.com`,
+	storeBaseUrl: `https://bossysuits-client.herokuapp.com`,
 
 	// used by API
 	adminLoginUrl: '/admin/login',
 
-	apiListenPort: 3001,
-	storeListenPort: 3000,
+	apiListenPort: process.env.PORT || 3001,
+	storeListenPort: process.env.PORT || 3000,
 
 	// used by API
 	mongodbServerUrl: dbUrl,
