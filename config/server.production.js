@@ -8,7 +8,7 @@ const dbCred =
 	dbUser.length > 0 || dbPass.length > 0 ? `${dbUser}:${dbPass}@` : '';
 
 const dbUrl =
-	process.env.DB_URL || `mongodb://root:keepwalking@cluster0-shard-00-00.fkgtd.mongodb.net:27017,cluster0-shard-00-01.fkgtd.mongodb.net:27017,cluster0-shard-00-02.fkgtd.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-46ia68-shard-0&authSource=admin&retryWrites=true&w=majority`;
+	process.env.DB_URL || `mongodb://root:keepwalking@cluster0-shard-00-00.fkgtd.mongodb.net:27017,cluster0-shard-00-01.fkgtd.mongodb.net:27017,cluster0-shard-00-02.fkgtd.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-46ia68-shard-0&authSource=admin&retryWrites=false&w=majority`;
 
 module.exports = {
 	// used by Store (server side)
